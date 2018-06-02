@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: gray;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4E4E4E;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4E4E4E;
+}
+
+body {
+  font-family: 'Mina', sans-serif;
+  font-size: 120%;
+}
+
+.title a {
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 150%;
+  padding: 10px;
+
+  /* To remove <a> properties */
+
+  text-decoration: none;
+  color: black;
+
+  /* Transition */
+
+  transition: 1s;
+}
+
+.title a:hover {
+  padding: 10px;
+}
+
+.colcontainer {
+  height: auto;
+}
+
+.col {
+  background: white;
+  color: black;
+  padding: 20px;
+
+  float: left;
+  margin-left: 40px;
+  width: 300px;
+  height: 200px;
+
+  font-size: 100%;
+}
+
+.col:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pageIMG {
+  background-image: url("https://static.planetminecraft.com/files/resource_media/screenshot/1726/tsma80g-1498674311_lrg.png");
+  height: 120px;
+  width: 1230px;
+  padding: 20px;
+}
