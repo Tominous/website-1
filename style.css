@@ -168,14 +168,17 @@ a:hover {
   text-decoration: underline;
 }
 
-.footer .map {
-  
+.footer .block {
+  margin-left: 20px;
+  width: 47%;
+  height: auto;
+  float: left;
+}
+
+.footer .block .b2 {
+  margin-left: 200px;
 }
 
 .footer .copy {
-  
-}
-
-.footer .creators {
-  
+  bottom: 1;
 }
