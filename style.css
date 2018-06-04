@@ -72,6 +72,7 @@ body {
 
 .title a {
   margin-left: 40px;
+  float: left;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 150%;
@@ -84,15 +85,34 @@ body {
 
   /* Transition */
 
-  transition: 1s;
+  transition: 0.3s;
 }
 
 .title a:hover {
-  padding: 10px;
+  text-decoration: none;
 }
 
-.colcontainer {
-  height: auto;
+.title a:active {
+  background: #B6B6B6;
+}
+
+.title .nav a {
+  margin-left: 40px;
+  float: left;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 125%;
+  padding: 8px;
+
+  margin-top: 6px;
+}
+
+.title .nav a:hover {
+  text-decoration: underline;
+}
+
+.title .nav a:active {
+  background: white;
 }
 
 .col {
