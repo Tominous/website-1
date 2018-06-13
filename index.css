@@ -1,0 +1,21 @@
+body {
+	font-family: sans-serif;
+	font-size: 120%;
+	background: black;
+}
+
+.block {
+	display: block;
+	margin: 0 auto;
+	background: white;
+	padding: 20px;
+	border-radius: 12px;
+	text-align: center;
+	color: black;
+	width: 50%;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
