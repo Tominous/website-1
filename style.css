@@ -137,11 +137,18 @@ footer {
 
 a {
   color: white;
-  text-deocration: none;
+  text-decoration: none;
+}
+
+footer a {
+  font-size: 90%;
+}
+
+footer a:hover {
+  font-size: 90%;
 }
 
 a:hover {
   color: white;
   text-decoration: underline;
 }
-/* By SawyerBx (@Sawyer#5001) */
