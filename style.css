@@ -1,5 +1,3 @@
-/* Fade In / Page Size */
-
 * {
   margin: 0;
   padding: 0;
@@ -44,161 +42,105 @@
     }
 }
 
-/* Scoller */
-
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: gray;
+    background: #E2BA37;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #4E4E4E;
-    border-radius: 10px;
+    background: #FFC300;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4E4E4E;
+    background: #DEAA00;
 }
 
-/* Normal CSS */
-
 body {
-  font-family: 'Mina', sans-serif;
+  font-family: sans-serif;
+  font-size: 160%;
+}
+
+nav {
+  padding: 20px;
+  background-color: #FCD452;
+  color: white;
+}
+
+nav button {
+  padding: 10px;
+  border: none;
+  color: white;
+  background: #FCD452;
+  font-size: 130%;
+  transition: 1s;
+}
+
+nav button:active {
+  background-color: #DEAA00;
+}
+
+nav .title {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+header {
+  background: #F2C946;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-size: 300%;
+}
+
+#join {
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 130%;
+  transition: 0.7s;
+}
+
+#join:hover {
+  padding: 25px;
+  font-size: 135%;
+}
+
+#help {
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 130%;
+  transition: 0.7s;
+}
+
+#help:hover {
+  padding: 25px;
+  font-size: 131%;
+}
+
+footer {
+  background: #F2C946;
+  color: white;
+  padding: 20px;
   font-size: 120%;
 }
 
-.title a {
-  margin-left: 40px;
-  float: left;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 150%;
-  padding: 10px;
-
-  /* To remove <a> properties */
-
-  text-decoration: none;
-  color: black;
-
-  /* Transition */
-
-  transition: 0.3s;
-}
-
-.title a:hover {
-  text-decoration: none;
-}
-
-.title a:active {
-  background: #B6B6B6;
-}
-
-.title .nav a {
-  margin-left: 40px;
-  float: left;
-  text-transform: none;
-  font-weight: normal;
-  font-size: 125%;
-  padding: 8px;
-
-  margin-top: 6px;
-}
-
-.title .nav a:hover {
-  text-decoration: underline;
-}
-
-.title .nav a:active {
-  background: white;
-}
-
-.col {
-  background: white;
-  color: black;
-  padding: 20px;
-
-  float: left;
-  margin-left: 40px;
-  width: 300px;
-  height: 200px;
-
-  font-size: 100%;
-}
-
-.col:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.pageIMG {
-  background-image: url("https://static.planetminecraft.com/files/resource_media/screenshot/1726/tsma80g-1498674311_lrg.png");
-  height: 120px;
-  width: 1230px;
-  padding: 20px;
-}
-
-button {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-
-  border-radius: 12px;
-  border: none;
-  padding: 20px;
-
-  text-decoration: none;
+.footer {
+  background: #F3C430;
   color: white;
-  background-color: #2CAD82;
-  transition: 1s;
-  font-size: 150%;
-}
-
-button:hover {
-  text-decoration: none;
-  color: white;
-  background-color: #4ADEAD;
+  padding: 20px;
+  font-size: 123%;
 }
 
 a {
-  text-decoration: none;
-  color: #2CAD82;
-  transition: 1s;
+  color: white;
+  text-deocration: none;
 }
 
 a:hover {
+  color: white;
   text-decoration: underline;
-}
-
-.footer {
-  background: #E3E3E3;
-  padding: 20px;
-  color: black;
-  height: auto;
-}
-
-.footer a {
-  color: black;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-.footer .block {
-  margin-left: 20px;
-  width: 47%;
-  height: auto;
-  float: left;
-}
-
-.footer .block .b2 {
-  margin-left: 200px;
-}
-
-.footer .copy {
-  bottom: 1;
 }
