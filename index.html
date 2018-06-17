@@ -1,13 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<title>CrazeX</title>
-		<link rel="stylesheet" href="index.css">
-	</head>
-	<body><br><br><br>
-		<div class="block">
-			<h1>CrazeX</h1>
-			<p>Oops! It looks like your at the wrong address...<br>Or maybe it's just that this site isn't done yet!<br>Keep up to date by joining our <a target="_blank" href="https://discord.gg/bgydxcB">Discord</a>!</p>
-		</div>
-	</body>
+<head>
+  <title>CrazeX</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <nav id="top">
+    <button class="title" onclick='window.open("#", "_self");'>CRAZEX</button>
+    <button id="btn1">Help</button>
+    <button id="btn2">Join</button>
+  </nav>
+  <header>
+    <h2>CrazeX</h2>
+    <p>crazex.minehut.gg</p>
+  </header><br><br><br>
+  <div id="join">
+    <h1>Join Us!</h1>
+    <p>Join our server with the IP crazex.minehut.gg! If our server is offline join minehut.com and type /join CrazeX !
+  </div>
+  <br><br>
+  <div id="help">
+    <h2>Help</h2>
+    <p>Get server help on and off of the server with Discord! Join our server and type /discord to get the discord link!<br> If there are staff online in the Minecraft serer you can get help from the team there as well!</p>
+  </div>
+  <footer>
+    <p style="font-size:130%;"><b>CRAZEX</b></p>
+    <p><b>SITE MAP</b><br>
+      <a href="">Home</a>
+    </p>
+  </footer>
+  <div class="footer">
+    <p>&copy; 2018 - All rights reserved.</p>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+$('#btn1').click(()  => {
+  $("html, body").animate(
+   { scrollTop: $('#help').offset().top }
+, 1000);
+})
+/* Join */
+$('#btn2').click(()  => {
+  $("html, body").animate(
+   { scrollTop: $('#join').offset().top }
+, 1000);
+})
+</script>
+</body>
 </html>
