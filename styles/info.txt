@@ -1,0 +1,9 @@
+All CSS By Github User SawyerBx and Razod, (C) 2018
+
+-= ( Files ) =-
+
+- Home Hover (index-hover.css)
+- Home Main (index.css)
+- SWAL Config (swal-config.css)
+
+-= ( Files ) =-
