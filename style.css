@@ -85,18 +85,23 @@ a.mh:hover {
   text-decoration: underline;
 }
 
+ .container {
+  position: relative;
+  min-height: 150px;
+  padding: 20px;
+}
+
 .promo {
-  bottom: 0;
   padding: 25px;
-  position: fixed;
   background: dodgerblue;
   padding: 20px;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
   width: 200px;
   height: 50px;
-  float: right;
   color: #fff;
+  position: absolute;
+  bottom: 0;
 }
 
 .promo a {
@@ -108,14 +113,19 @@ a.mh:hover {
   text-decoration: underline;
 }
 
-.promo img {
+.promo svg {
   float: left;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  color: #fff;
 }
 
 .promo .oth {
   float: right;
   font-size: 80%;
+  padding: 1px;
+}
+
+.promo .mhlogo {
+  color: #fff;
 }
